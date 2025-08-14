@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="RCS.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <button class="choice" id="rock">
+                <img src="rock.jpg" alt="rock">
+            </button>
+            <button class="choice" id="paper">
+                <img src="paper.jpg" alt="paper">
+            </button>
+            <button class="choice" id="scissors">
+                <img src="scissors.jpg" alt="scissors">
+            </button>
+        </div>
+        <div class="results">
+            <p id="player-choice">You chose: </p>
+            <p id="computer-choice">Computer chose: </p>
+            <p id="result">Result: </p>
+        </div>
+    </div>
+    <div class="scores">
+        <p id="player-score">Player Score: 0</p>
+        <p id="computer-score">Computer Score: 0</p>
+        <p id="draw-score">Number of draws: 0</p>
+    </div>
+    <script src="RCS.js"></script>
+</body>
+</html>
